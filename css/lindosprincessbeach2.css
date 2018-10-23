@@ -1,0 +1,216 @@
+/*@media files: van grote naar kleine resolutie, daarna alfabetisch a-->z,geen rekening houdend met ., # */
+
+@media (min-width: 1500px) {
+    article.faciliteiten {
+        max-width: 24%;
+        margin: 0.1%;
+    }
+
+    article.resto {
+        min-height: 625px; /*gelijktrekken kaders*/
+    }
+
+    article.room {
+        min-height: 920px; /*gelijktrekken kaders*/
+        width: 32%;
+    }
+
+    article.zwembad {
+        min-height: 825px; /*gelijktrekken kaders*/
+        width: 32%;
+    }
+
+    aside {
+        display: block;
+        width: 18%;
+        margin-right: 1%;
+        margin-left: 1%;
+        float: left;
+        border: none;
+    }
+
+    aside img {
+        max-width: 98%;
+        margin-top: 1em;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    section {
+        width: 80%;
+        float: left;
+    }
+
+    section.resto {
+        width: 80%;
+        float: left;
+    }
+    table {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    article.faciliteiten {
+        max-width: 24%;
+        margin: 0.5% 0.1%;
+    }
+
+    article.room {
+        min-height: 920px; /*gelijktrekken kaders*/
+        width: 32%;
+    }
+
+    article.zwembad {
+        min-height: 825px; /*gelijktrekken kaders*/
+        width: 32%;
+    }
+
+    table {
+        width: 70%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    article {
+        display: block;
+        width: 100%;
+    }
+
+    article img {
+        margin-left: 0;
+    }
+
+    article.resto {
+        min-height: 520px; /*hoogte van meerderheid van de fotos op deze resolutie*/
+    }
+
+    article.room {
+        min-height: 800px;
+    }
+
+    article.zwembad {
+        min-height: 400px; /*minimumwaarde hier minder van belang, maar anders springt deze terug naar beginwaarde van 625px*/
+    }
+
+    form fieldset {
+        margin: auto;
+    }
+
+    .imagewidth {
+        max-width: 98%;
+    }
+
+    .resto {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    #achternaam {
+        width: 98%;
+    }
+
+    article {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    article img {
+        margin-left: 0;
+    }
+
+    article.faciliteiten {
+        max-width: 100%;
+        margin: 0.5% auto;
+    }
+
+    article.resto {
+        min-height: 400px; /*minimumwaarde hier minder van belang, maar anders springt deze terug naar beginwaarde van 700px*/
+    }
+
+    article.room {
+        min-height: 400px; /*minimumwaarde hier minder van belang, maar anders springt deze terug naar beginwaarde van 960px*/
+    }
+
+    article.zwembad {
+        min-height: 400px; /*minimumwaarde hier minder van belang, maar anders springt deze terug naar beginwaarde van 625px*/
+    }
+
+    div.available {
+        display: block;
+        margin-left: 10%;
+        width: 88%;
+    }
+    div.kaart {
+        display: block;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    div.kaart iframe {
+        height: 300px;
+        width:98%;
+        margin: auto;
+    }
+
+    div.weer {
+        display: block;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    div.weer iframe {
+        min-width: 200px;
+        width:80%;
+        margin: auto;
+    }
+
+    #email {
+        width: 98%
+    }
+
+    form {
+        margin-left: 1%;
+        max-width: 98%;
+    }
+
+    form fieldset {
+        min-width: 300px;
+        max-width: 300px;
+    }
+
+    .links {
+        max-width: 98%;
+    }
+
+    nav {
+        width: 8em;
+    }
+
+    nav li a {
+        display: block
+    }
+
+    .rechts {
+        max-width: 98%;
+
+    }
+
+    .resto {
+        display: block;
+        width: 100%;
+    }
+
+    #straat {
+        width: 98%
+    }
+
+    #voornaam {
+        width: 98%
+    }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="nl">
+    <meta charset="UTF-8">
+    <meta name=description content="Booking page Lindos Princess Beach Hotel | All inclusive Resort Rhodes">
+    <meta name=keywords content="booking, lindos, princess, beach, all-inclusive, resort, rhodes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Bookings Princess Beach</title>
+    <link href="../css/lindosprincessbeach.css" rel="stylesheet">
+    <link href="../css/lindosprincessbeach2.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <a href="../index.html">
+        <img src="../images/princesslogo.jpg" alt="Lindos Princess Home page" width=180 height=180>
+    </a>
+</header>
+
+<h1>Bookings</h1>
+
+<nav>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="kamers.html">Rooms</a></li>
+        <li class="current"><a href="boekingen.html">Booking</a></li>
+        <li><a href="toerisme.html">Tourism</a></li>
+        <li><a href="hotelfaciliteiten.html">Hotel Facilities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section>
+
+    <form action="afgewerkteboeking.html" method="post">
+        <fieldset id=Personalia>
+            <legend>Personal Data</legend>
+            <input id=heer name=aanspreking type=radio value=Sir>
+            <label for=heer>Sir</label>
+            <input checked id=dame name=aanspreking type=radio value=Madame>
+            <label for=dame>Madam</label><br><br>
+            <label for=achternaam>Surname</label>
+            <input id=achternaam name=achternaam maxlength=90 size=40 type=text placeholder="last name"><br><br>
+            <label for=voornaam>First Name</label>
+            <input id=voornaam name=voornaam maxlength=90 size=40 type=text placeholder="first name"><br><br>
+            <label for=straat>Street Adress</label>
+            <input id=straat name=straat maxlength=150 size=40 type=text placeholder="streetname + housenumber"><br><br>
+            <label for=plaats>City</label>
+            <input id=plaats name=plaats maxlength=50 size=30 type=text placeholder="town/city"><br><br>
+            <label for=land>Country</label>
+            <input id=land name=land maxlength=50 size=30 type=text placeholder="country"><br><br>
+            <label for=email>E-mail</label>
+            <input id=email name=email maxlength=200 size=40 type=email placeholder="e-mail-adress"><br><br>
+        </fieldset>
+
+        <fieldset id=boekingdetails>
+            <legend>Details Booking</legend>
+            <label for="kamersoort">Room type</label>
+            <select id=kamersoort name=kamersoort>
+                <option>Double</option>
+                <option>Family</option>
+                <option>Suite</option>
+            </select><br><br>
+            <label for=aantalVolwassenen>Adults</label>
+            <input id=aantalVolwassenen type=number><br><br>
+            <label for=aantalKinderen>Children (under 12)</label>
+            <input id=aantalKinderen type=number><br><br>
+            <label for=begindatum>Date of arrival</label>
+            <input id=begindatum type=date><br><br>
+            <label for=einddatum>Date of departure</label>
+            <input id=einddatum type=date><br><br>
+            <input checked id=parking name=parking type=radio value=yes>
+            <label for=parking>parking ticket</label>
+            <input id=noparking name=parking type=radio value=no>
+            <label for=parking>no parking ticket</label>
+        </fieldset>
+
+        <fieldset id=klaar>
+            <legend>Confirmation</legend>
+            <label for=zend>Please make sure all data are correct</label>
+            <input id=zend type=submit value="Confirm Booking">
+        </fieldset>
+    </form>
+
+</section>
+<aside>
+    <img src="../images/princess10.jpg" alt="princess">
+    <img src="../images/princess14.jpg" alt="spa">
+</aside>
+
+<footer>
+    &copy;
+    <a href="mailto:gwendolene.vanteenkiste@student.kdg.be">Chassandra</a>
+    <a href="http://www.lindosprincess.com/" target="_blank"><img src="../images/thumbnails/princess.thumbnail.jpg"
+                                                                  alt="Lindos" height="36" width="66"></a>
+    <a href="https://www.facebook.com/LindosPrincess?ref=ts&amp;fref=ts" target="_blank">
+        <img src="../images/thumbnails/facebook.png" alt="Facebook" width=33 height=33>
+    </a>
+    <a href="https://twitter.com/" target="_blank"><img src="../images/thumbnails/twitter.png" alt="Twitter" width=36
+                                                        height=36> </a>
+    <a href="contact.html">Contact</a>
+</footer>
+
+</body>
+</html>

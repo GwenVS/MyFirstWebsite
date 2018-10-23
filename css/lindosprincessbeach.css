@@ -1,0 +1,291 @@
+/* alfabetisch geordend  a-->z (geen rekening houdent met .,# */
+
+a {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+article {
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+    max-width: 45em;
+    min-height: 450px;
+    border: 1px solid darkslateblue; /*zelfde kleur als tekst, voor duidelijker onderscheid*/
+    border-radius: 0.2em;
+    padding: 0.1em;
+    margin-bottom: 0.5em;
+}
+
+article.faciliteiten {
+    min-height: 510px;
+}
+
+article.faciliteiten img {
+    float: left;
+}
+
+article h2 {
+    margin-left: 0.5em;
+}
+
+article h3 {
+    margin-left: 0.5em;
+}
+
+article img {
+    margin: 1%;
+}
+article p {
+    margin-left: 0.5em;
+}
+
+article.resto {
+    min-height: 700px;
+}
+
+article.resto img {
+    max-width: 60%;
+    float: left;
+}
+
+article.room {
+    min-height: 970px;
+}
+
+article.zwembad {
+    min-height: 625px;
+}
+
+aside {
+    display: none;
+}
+
+body {
+    background: #F0F0F0 url(../images/princess12.jpg) no-repeat top center; /*hoogte afbeelding 250px*/
+    font-size: 16px;
+    font-family: arial, helvetica, sans-serif;
+    color: darkslateblue;
+}
+
+#dame {float: left;}
+
+div.available {
+    margin-left: 2%;
+    margin-top: 8px;
+    margin-right: 5%;
+    float: right;
+}
+
+div.available table {
+    height: 200px;
+    width: 200px; /*zelfde breedte als div.weer*/
+}
+
+div.tabel {
+    clear: both;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+div.weer {
+    margin-left: 2%;
+    margin-top: 8px;
+    margin-right: 5%;
+    float: right;
+}
+div.weer iframe {
+    border: 0;
+    height:200px;
+    width: 200px;
+}
+div.kaart {
+    margin-left: 2%;
+    margin-top: 8px;
+    margin-right: 5%;
+    float: right;
+}
+div.kaart iframe {
+    border: 0;
+    height:450px;
+    width: 450px;
+}
+footer {
+    text-align: right;
+    margin: 10px 5%;
+    font: arial, helvetica, sans-serif bold;
+    clear: both;
+}
+
+form {
+    margin: 1em 1em 1em 18%;
+}
+
+form fieldset {
+    min-width: 449px;
+    max-width: 450px;
+    float: left;
+}
+
+form label {
+    float: left;
+    width: 120px;
+    padding: 1px 0;
+}
+
+h1 {
+    text-align: center;
+    font: 3em;
+    color: #ffffff;
+}
+
+h2 {
+    margin: 8px 5% 8px 10%;
+}
+
+h3 {
+    margin: 8px 5% 8px 10%;
+}
+
+header {
+    text-align: center;
+    height: 180px; /* zelfde hoogte als logo*/
+}
+
+#heer {float: left;}
+
+.imagewidth {
+    max-width: 98%;
+    margin-left: 1%;
+}
+
+#klaar label { width: 290px;}
+
+.links {
+    float: left;
+    max-width: 49%;
+    margin: 1%;
+    border: 1px solid darkslateblue;
+    border-radius: 0.2em;
+}
+
+nav {
+    min-width: 200px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+nav ul {
+    background-color: lightsteelblue;
+    border-bottom: solid 2px grey;
+    padding: 2px 0;
+    margin-left: 1%;
+    font: bold 14px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 2px 5px;
+    border: solid 2px grey;
+    border-radius: 0.3em 0.3em;
+    border-bottom: none;
+    background-color: steelblue;
+    color: lightblue;
+}
+
+nav li a:visited {
+    color: lavender;
+}
+
+nav li a:hover {
+    color: darkcyan;
+    background-color: lightcyan;
+}
+
+nav li a:active {
+    color: midnightblue;
+}
+
+nav li.current a {
+    position: relative;
+    top: 2px;
+    background-color: midnightblue;
+}
+#noparking {float:left;}
+
+p {
+    margin: 8px 5% 8px 10%;
+}
+
+#parking {float:left;}
+
+.rechts {
+    float: right;
+    max-width: 49%;
+    margin: 1%;
+    border: 1px solid darkslateblue;
+    border-radius: 0.2em;
+}
+
+table {
+    border: 2px solid darkslateblue;
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td {
+    border: solid darkslateblue 1px;
+}
+
+ul.menu {
+    float: left;
+    width: 15%;
+    min-width: 100px;
+    background-color: lightsteelblue;
+    border: solid 2px darkslateblue;
+    border-radius: 10px;
+    padding: 2px 0;
+    margin-left: 1%;
+    font: bold 14px;
+    text-align: center;
+    list-style-type: none;
+}
+
+ul.menu li {
+    margin: 5px;
+    border: solid 2px grey;
+    border-radius: 0.3em 0.3em;
+}
+
+ul.menu li a {
+    display: block;
+    text-decoration: none;
+    padding: 2px 5px;
+    background-color: steelblue;
+    color: lightblue;
+}
+
+ul.menu li a:visited {
+    color: lavender;
+}
+
+ul.menu li a:hover {
+    color: darkcyan;
+    background-color: lightcyan;
+}
+
+ul.menu li a:active {
+    border-radius: 0.3em 0.3em;
+}
+
+ul.menu li.current a {
+    position: relative;
+    background-color: midnightblue;
+}
