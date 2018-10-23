@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4123a5a0-7668-46b1-9d7e-290ed7511ead" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/afgewerkteboeking.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/afgewerkteboeking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/boekingen.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/boekingen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fiets.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/fiets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fitness.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/fitness.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotelfaciliteiten.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hotelfaciliteiten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/kamers.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kamers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/restaurant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/toerisme.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/toerisme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/zwembad.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/zwembad.html" afterDir="false" />
     </list>
     <ignored path="Hotel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,11 +58,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="html" value="90" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="90" />
           <entry key="JSON" value="2" />
         </counts>
       </usages-collector>
@@ -89,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
+              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -182,7 +191,7 @@
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540288573469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540288952829" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -236,16 +245,15 @@
       <workItem from="1460384950207" duration="2902000" />
       <workItem from="1460717846636" duration="35000" />
       <workItem from="1540285644818" duration="1781000" />
-      <workItem from="1540287582056" duration="850000" />
+      <workItem from="1540287582056" duration="1227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5568000" />
+    <option name="totallyTimeSpent" value="5945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="0" width="942" height="1087" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24603175" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -410,7 +418,7 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
